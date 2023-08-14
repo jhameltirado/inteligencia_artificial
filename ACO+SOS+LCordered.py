@@ -125,7 +125,7 @@ best_length = 1e6 # definimos distancia alta para la futura comparación
 
 
 # Iteraciones
-for _ in range(itera): # AGREGAR COMO CONDICIÓN DE PARADA EL ANÁLISIS DE CONVERGENCIA
+for _ in range(itera):
 
     # Construcción de soluciones
     ant_path = [] # camino por hormiga
