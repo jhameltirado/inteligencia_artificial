@@ -190,7 +190,7 @@ for _ in range(itera): # AGREGAR COMO CONDICIÓN DE PARADA EL ANÁLISIS DE CONVE
                         best_length = ant_path_length[j]
                         best_path = ant_path[j].copy()  # Actualizar el mejor camino encontrado
 
-    # Actualización de feromonas
+    # Evaporacion de feromonas
     for i in range(city_num):
         for j in range(i, city_num):
             pheromone[i][j] *= (1 - rho)
